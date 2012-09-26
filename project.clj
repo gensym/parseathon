@@ -4,4 +4,6 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [org.clojars.jpoplett/fnparse "2.2.8"]
                  [slingshot "0.9.0"]]
-  :dev-dependencies [[lein-clojars "0.7.0"]])
+  :dev-dependencies [[lein-clojars "0.7.0"]]
+  :plugins [[lein-swank "1.4.1"]]
+)
